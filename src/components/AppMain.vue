@@ -14,7 +14,6 @@ export default {
 
     <main>
         <div>
-            Main
         </div>
     </main>
 
