@@ -13,3 +13,7 @@
 a{
     color: inherit;
 }
+
+footer, header, main{
+    @include container()
+}

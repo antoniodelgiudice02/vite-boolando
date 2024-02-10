@@ -55,9 +55,6 @@ export default {
     background-color: #ff6900;
     color: white;
     
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
     li{
       display: inline;

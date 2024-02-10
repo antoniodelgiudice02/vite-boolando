@@ -1,3 +1,4 @@
+
 <script>
 
 export default {
@@ -60,9 +61,6 @@ footer {
   background-color: #1a1a1a;
   color: white;
 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   
 
   li {
