@@ -108,12 +108,12 @@ export default {
             },
           ],
         },
-      ]
+      ],
 
     }
   },
 
-  components: { AppCard }
+  components: { AppCard },
 }
 
 </script>
@@ -121,17 +121,24 @@ export default {
 <template>
   <main>
     <div class="card-container">
-      <app-card v-for="product in products" :brand="product.brand" />
+
+      <app-card v-for="product in products" 
+        :image="product.frontImage"
+        :brand="product.brand" 
+        :name="product.name" 
+        :price="product.price">
+      </app-card>
+
     </div>
   </main>
 </template>
 
 <style lang="scss" scoped>
- .card-container{
+.card-container {
   width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 10px;
   flex-wrap: wrap;
- }
+}
 </style>
