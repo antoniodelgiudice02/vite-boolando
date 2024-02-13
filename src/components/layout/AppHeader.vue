@@ -20,7 +20,7 @@ export default {
   },
 
   methods:{
-    image(imageName){
+    imageLogo(imageName){
       return new URL (imageName, import.meta.url).href;
     }
   }
@@ -37,7 +37,7 @@ export default {
       </ul>
     </div>
     <div>
-      <img :src="image(logo)" alt="">
+      <img :src="imageLogo(logo)" alt="">
     </div>
     <div>
       <ul>

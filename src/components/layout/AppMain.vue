@@ -123,7 +123,8 @@ export default {
     <div class="card-container">
 
       <app-card v-for="product in products" 
-        :image="product.frontImage"
+        :frontImage="product.frontImage"
+        :backImage="product.backImage"
         :brand="product.brand" 
         :name="product.name" 
         :price="product.price">
@@ -140,5 +141,7 @@ export default {
   justify-content: space-between;
   gap: 10px;
   flex-wrap: wrap;
+  padding: 25px;
+  margin: 10px;
 }
 </style>
